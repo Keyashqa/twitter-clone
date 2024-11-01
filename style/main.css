@@ -1,0 +1,125 @@
+.main{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo{
+    background-color: black;
+}
+
+
+
+.options{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.options div{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.options p{
+    color: rgb(113, 118, 123);
+    font-family: Arial;
+    font-weight: 700;
+}
+
+.profile-pic{
+    margin-left: 10px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.myself{
+    padding-top: 5px;
+    border: 1px solid rgb(47, 51, 54);
+    border-left: none;
+    border-right: none;
+    padding-bottom: 10px;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
+.searchbox{
+    margin-top: 5px;
+    margin-left: 5px;
+    border: none;
+    color: white;
+    background-color: black;
+    font-family: arial;
+    font-size: 20px;
+    font-weight: 500;
+    height: 30px;
+    width: 100%;
+}
+.searchbox::placeholder{
+    color: rgb(113, 118, 123);
+    font-family: arial;
+    font-size: 20px;
+}
+.myself-two{
+    display: flex;
+    flex-direction: row;
+}
+.myself-two-pics img{
+    height: 20px;
+    width: 20px;
+}
+.myself-two-pics{
+    margin-left: 55px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.content{
+    border: 1px solid rgb(47, 51, 54);
+    column-gap: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
+
+.comments{
+    padding-top: 8px;
+    display: flex;
+    direction: row;
+    padding-left: 5px;
+    padding-right: 10px;
+    justify-content: space-between;
+}
+.myself-two button{
+    background-color: #00D7E0;
+    border-style: none;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 20px;
+    margin-left: 320px ;
+}
+.for-you:hover p{
+    cursor: pointer;
+    color: white;
+}
+.following:hover p{
+    cursor: pointer;
+    color: white;
+}
+.content-user-pic{
+    margin-top:5px ;
+}
+.span{
+    font-size: 14px;
+    color: rgb(113, 118, 123);
+}
+
+.user-name p{
+    font-weight:700;
+}
+.userimg{
+    border-radius: 10px;
+}

@@ -1,0 +1,86 @@
+section{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(47, 51, 54);
+    border-top: none;
+
+}
+.section-searchbox{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+.searchbox-section::placeholder{
+    color: rgb(113, 118, 123);
+}
+
+.searchbox-section{
+    background-color: rgb(47, 51, 54);
+    color: white;
+    border-style: none;
+    border-radius: 20px;
+    padding: 10px;
+    min-width: 0px;
+    width: 80%;
+}
+.whatshappening{
+    margin: 20px;
+    border-radius: 10px;
+    border: 1px solid rgb(47, 51, 54);
+    display: flex;
+    flex-direction: column;
+}
+.sec-pic{
+    margin-left: 15px;
+    height: 68px;
+    width: 68px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.sec-wh{
+    margin-left: 15px;
+}
+.sec-wh p{
+    font-weight: 800;
+    font-size: 20px;
+}
+.sec-profile{
+    display: flex;
+    flex-direction: row;
+    column-gap: 9px;
+}
+.sec-profile p{
+    line-height: 5px;
+}
+.sec-info{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 30px;
+}
+.sec-info p{
+    font-size: 14px;
+    line-height: 2px;
+    color: rgb(199, 199, 199);
+}
+.p-one{
+    font-weight: 700;
+}
+.sec-span{
+    color:#00D7E0 ;
+}
+.p-two{
+    font-size: 12px;
+    color: rgb(249, 249, 249);
+}
+.sec-info-content{
+    margin-left: 15px;
+}
+.sec-option{
+    display: flex;
+    align-items: center;
+}
+.sec-option img{
+    height: 24px;
+    width: 24px;
+}

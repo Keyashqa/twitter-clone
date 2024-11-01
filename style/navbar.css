@@ -1,0 +1,37 @@
+nav{
+    background-color: black
+}
+.nav-bar{
+    border: 1px solid rgb(47, 51, 54);
+    border-bottom: none;
+    border-top: none;
+    left: 30px;
+    position: fixed;
+    height: 710px;
+    width: 60px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 2fr;
+}
+.nav-bar img{
+    width: 24px;
+}
+
+
+.navbar div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-profile-pic{
+    height: 24px;
+    object-fit: cover;
+    width: 28px;
+    border-radius: 50%;
+}
+.nav-twitter-logo{
+    width: 40px;
+    
+}
